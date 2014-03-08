@@ -1,0 +1,4 @@
+metalsmith-static
+=================
+
+Static/Assets
