@@ -1,0 +1,11 @@
+{
+  "name": "metalsmith-static",
+  "author": "Daniel Fagnan",
+  "version": "0.0.2",
+  "dependencies": {
+    "ncp": "~0.5.0"
+  },
+  "devDependencies": {
+    "metalsmith": "0.x"
+  }
+}
