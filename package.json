@@ -1,7 +1,7 @@
 {
   "name": "metalsmith-static",
   "author": "Daniel Fagnan",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "dependencies": {
     "ncp": "~0.5.0"
