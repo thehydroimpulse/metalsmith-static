@@ -22,6 +22,20 @@ metalsmith
   });
 ```
 
+
+## Using the CLI
+
+The source and destination directores can be configured using the `src` and `dest` options.
+
+```javascript
+{
+  "metalsmith-static": {
+    "src": "public",
+    "dest": "."
+  }
+}
+```
+
 ## License
 
 The MIT License (MIT)
