@@ -11,5 +11,5 @@ logs
 results
 npm-debug.log
 node_modules
-lib/.index.js.swp
-test/.index.js.swp
+*.swp
+*.swp
