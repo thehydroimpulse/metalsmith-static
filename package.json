@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-static",
-  "repository": "git://github.com/mayo/metalsmith-static.git",
+  "repository": "git://github.com/thehydroimpulse/metalsmith-static.git",
   "author": "Daniel Fagnan",
   "version": "0.0.4",
   "main": "lib/index.js",
