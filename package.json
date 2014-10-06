@@ -2,7 +2,7 @@
   "name": "metalsmith-static",
   "repository": "git://github.com/thehydroimpulse/metalsmith-static.git",
   "author": "Daniel Fagnan",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "dependencies": {
     "ncp": "~0.5.0",
@@ -10,7 +10,7 @@
     "debug": "~0.7.4"
   },
   "devDependencies": {
-    "metalsmith": "0.x",
+    "metalsmith": "1.x",
     "assert-dir-equal": "0.0.1"
   }
 }
