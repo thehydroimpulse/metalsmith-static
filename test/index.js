@@ -66,5 +66,25 @@ describe('test', function() {
         done();
       });
   });
+
+  it('should accept absolute paths', function(done) {
+    var metalsmith = Metalsmith('test/fixtures/two');
+
+    fs.removeSync('test/fixtures/two/build/*');
+
+    metalsmith
+      .clean(false)
+      .use(asset({
+        "src": __dirname + "/fixtures/two/public",
+        "dest": __dirname + "/fixtures/two/build",
+      }))
+      .build(function(err) {
+        if (err) return done(err);
+
+        equal('test/fixtures/two/expected', 'test/fixtures/two/build');
+
+        done();
+      });
+  });
 });
 
